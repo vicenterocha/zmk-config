@@ -70,7 +70,7 @@
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &trans   &kp LBRC    &kp AMPS    &kp STAR    &kp LPAR    &kp RBRC    /**/  &trans   &trans       &trans      &trans      &trans      &trans
-   &trans   &kp COLON   &kp DLLR    &kp PRCNT   &kp CARET   &kp PLUS    /**/  &trans   &kp LGUI     &kp LALT    &kp LCTRL   &LSHIFT     &trans
+   &trans   &kp COLON   &kp DLLR    &kp PRCNT   &kp CARET   &kp PLUS    /**/  &trans   &kp LGUI     &kp LALT    &kp LCTRL   &kp LSHIFT     &trans
    &trans   &kp TILDE   &kp EXCL    &kp AT      &kp POUND   &kp PIPE    /**/  &trans   &trans       &trans      &trans      &trans      &trans
                                     &kp LPAR    &kp RPAR    &kp UNDER   /**/  &trans   &trans       &trans
                         >;
