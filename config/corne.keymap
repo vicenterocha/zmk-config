@@ -33,7 +33,7 @@
    &none   &kp Q            &kp W           &kp F           &kp P           &kp B       /**/    &kp J       &kp L           &kp U           &kp Y           &kp SQT         &none
    &none   &bhm LSHIFT A    &bhm LCTRL R    &bhm LALT S     &bhm LGUI T     &kp G       /**/    &kp K       &bhm LGUI N     &bhm LALT E     &bhm LCTRL I    &bhm LSHIFT O   &none
    &none   &kp Z            &kp X           &kp C           &kp D           &kp V       /**/    &kp M       &kp H           &kp COMMA       &kp DOT         &kp FSLH        &none
-                                            &kp ESC         &lt 1 BSPC      &kp TAB     /**/    &lt 3 RET   &lt 2 SPACE     &lt 4 DEL
+                                            &kp ESC         &lt 1 BSPC      &lt 2 TAB     /**/    &lt 3 RET   &lt 2 SPACE     &lt 4 DEL
                         >;
                 };
                 nav_layer {
