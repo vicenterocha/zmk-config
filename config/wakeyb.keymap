@@ -28,6 +28,16 @@
                 flavor = "balanced";
                 bindings = <&kp>, <&kp>;
             };
+            gqt: global-quick-tap {
+                compatible = "zmk,behavior-hold-tap";
+                label = "GLOBAL_QUICK_TAP";
+                #binding-cells = <2>;
+                flavor = "tap-preferred";
+                tapping-term-ms = <200>;
+                quick-tap-ms = <125>;
+                global-quick-tap;
+                bindings = <&kp>, <&kp>;
+            };
         };
         keymap {
                 compatible = "zmk,keymap";
@@ -40,7 +50,7 @@
 //                    | ESC | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &kp N1   &kp Q           &kp W           &kp F           &kp P           &kp B       /**/    &kp J               &kp L               &kp U           &kp Y           &kp SQT         &none
-   &kp N2   &bhm LSHIFT A   &bhm LCTRL R    &bhm LALT S     &bhm LGUI T     &kp G       /**/    &kp K               &bhm LGUI N         &bhm LALT E     &bhm LCTRL I    &bhm LSHIFT O   &none
+   &kp N2   &gqt LSHIFT A   &gqt LCTRL R    &gqt LALT S     &gqt LGUI T     &kp G       /**/    &kp K               &gqt LGUI N         &gqt LALT E     &gqt LCTRL I    &gqt LSHIFT O   &none
    &kp N3   &kp Z           &kp X           &kp C           &kp D           &kp V       /**/    &kp M               &kp H               &kp COMMA       &kp DOT         &kp FSLH        &none
                 &lt MEDIA_CONTROL ESC   &lt NAVIGATION BSPC    &lt NUMBERS TAB          /**/     &lt SYMBOLS RET     &lt NUMBERS SPACE   &lt FUNCTION_KEYS DEL
                         >;
