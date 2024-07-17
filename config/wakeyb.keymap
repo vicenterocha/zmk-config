@@ -21,7 +21,6 @@
         behavior {
             gqt: global-quick-tap {
                 compatible = "zmk,behavior-hold-tap";
-                label = "GLOBAL_QUICK_TAP";
                 #binding-cells = <2>;
                 flavor = "tap-preferred";
                 tapping-term-ms = <200>;
@@ -31,7 +30,6 @@
             };
             hm: homerow_mods {
                 compatible = "zmk,behavior-hold-tap";
-                label = "HOMEROW_MODS";
                 #binding-cells = <2>;
                 tapping-term-ms = <150>;
                 quick-tap-ms = <0>;
@@ -61,7 +59,7 @@
                           	        &trans      &trans      &trans   /**/  &trans      &trans      &trans
                         >;
                   sensor-bindings = <&inc_dec_kp C_PREV C_FF>;
-                  
+
                 };
 
                 numb_layer {
@@ -72,7 +70,7 @@
                                 &kp DOT  &kp N0   &kp MINUS     /**/   &trans      &trans     &trans
                         >;
                   sensor-bindings = <&inc_dec_kp C_PREV C_FF>;
-                  
+
                 };
                 symb_layer {
                         bindings = <
@@ -82,7 +80,7 @@
                                     &kp LPAR    &kp RPAR    &kp UNDER   /**/  &trans   &trans       &trans
                         >;
                   sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP >;
-                  
+
                 };
 
                 fs_layer {
