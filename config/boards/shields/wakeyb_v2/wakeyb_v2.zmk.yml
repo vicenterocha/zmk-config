@@ -1,0 +1,11 @@
+file_format: "1"
+id: wakeyb
+name: WakeybII
+type: shield
+url: https://github.com/vicenterocha/wake-yboard
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - wakeyb_v2_left
+  - wakeyb_v2_right

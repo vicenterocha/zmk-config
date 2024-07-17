@@ -15,8 +15,8 @@
 ---
 include:
   - board: nice_nano_v2
-    shield: wakeyb_left
+    shield: wakeyb_v2_left
   - board: nice_nano_v2
-    shield: wakeyb_right
+    shield: wakeyb_v2_right
   - board: nice_nano_v2
     shield: settings_reset
