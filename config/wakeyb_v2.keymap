@@ -48,7 +48,7 @@
 &kp N1    &gqt LSHIFT A   &gqt LCTRL R    &gqt LALT S             &gqt LGUI T             &kp G           /**/  &kp K            &gqt LGUI N        &gqt LALT E            &gqt LCTRL I  &gqt LSHIFT O    &kp N1
 &kp N1    &kp Z           &kp X           &kp C                   &kp D                   &kp V           /**/  &kp M            &kp H              &kp COMMA              &kp DOT       &kp FSLH         &kp N1
                                         &lt MEDIA_CONTROL ESC   &lt NAVIGATION BSPC     &lt NUMBERS TAB /**/  &lt SYMBOLS RET  &lt NUMBERS SPACE  &lt FUNCTION_KEYS DEL
-                        >;23\23\12356456789=123456789123456789111;;;[11[;``z````11
+                        >;
 
                 };
 
