@@ -1,8 +1,0 @@
-# Copyright (c) 2022 Vicente Rocha
-# SPDX-License-Identifier: MIT
-
-config SHIELD_WAKEYB_LEFT
-	def_bool $(shields_list_contains,wakeyb_left)
-
-config SHIELD_WAKEYB_RIGHT
-	def_bool $(shields_list_contains,wakeyb_right)
