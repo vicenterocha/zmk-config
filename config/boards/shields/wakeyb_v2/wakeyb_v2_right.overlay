@@ -6,6 +6,10 @@
 
 #include "wakeyb_v2.dtsi"
 
+&default_transform {
+	col-offset = <0>;
+};
+
 &kscan0 {
     row-gpios
 		= <&pro_micro 14 GPIO_ACTIVE_HIGH> // Row A from the schematic file
