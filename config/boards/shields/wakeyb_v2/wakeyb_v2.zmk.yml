@@ -4,8 +4,10 @@ name: WakeybII
 type: shield
 url: https://github.com/vicenterocha/wake-yboard
 requires: [pro_micro]
+exposes: [i2c_oled]
 features:
   - keys
+  - display
 siblings:
   - wakeyb_v2_left
   - wakeyb_v2_right
