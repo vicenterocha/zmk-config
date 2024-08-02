@@ -22,7 +22,7 @@
                 compatible = "zmk,behavior-hold-tap";
                 label = "GLOBAL_QUICK_TAP";
                 #binding-cells = <2>;
-                flavor = "hold-preferred";
+                flavor = "tap-preferred";
                 tapping-term-ms = <150>;
                 quick-tap-ms = <10>;
                 global-quick-tap;
